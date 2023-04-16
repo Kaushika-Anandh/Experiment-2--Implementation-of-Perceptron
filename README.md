@@ -43,7 +43,7 @@ Indeed if the neuron output is exactly zero it cannot be assumed that the sample
 7. Define the desired output vector ‘Y’ scaled to +1 or -1 for two classes C1 and C2
 8. Assign Initial Weight vector ‘W’ as 0 as the dimension of ‘X’
 9. Assign the learning rate
-10. For 'N' iterations do the following
+10. For 'N' iterations do the following                                                                                                                                
 ![](formula4.png)
 
 11. Plot the error for each iteration 
