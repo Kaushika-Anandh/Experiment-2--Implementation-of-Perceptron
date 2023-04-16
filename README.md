@@ -35,7 +35,7 @@ Indeed if the neuron output is exactly zero it cannot be assumed that the sample
 1. Importing the libraries
 2. Importing the dataset
 3. Plot the data to verify the linear separable dataset and consider only two classes
-4. Convert the data set to scale the data to uniform range by using Feature scaling
+4. Convert the data set to scale the data to uniform range by using Feature scaling                                      
 ![](formula3.png)
 
 5. Split the dataset for training and testing
@@ -140,7 +140,7 @@ print("accuracy = " , accuracy_score(classifier.predict(x_test), y_test)*100)
 ### Error plot
 ![](4.png)
 ### Accuracy
-[](5.PNG)
+![](5.PNG)
 
 ## Result:
 Thus, a perceptron for classification is implemented using python.
