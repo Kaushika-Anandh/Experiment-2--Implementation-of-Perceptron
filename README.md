@@ -1,10 +1,37 @@
-# Experiment-2--Implementation-of-Perceptron
+Exp.No : 02 
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+&emsp;
+Date : 06.04.2023
+<br>
+
+# Implementation-of-Perceptron
 ## AIM:
 
 To implement a perceptron for classification using Python
 
 ## EQUIPMENTS REQUIRED:
 Hardware – PCs
+
 Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 
 ## RELATED THEORETICAL CONCEPT:
@@ -50,10 +77,6 @@ Indeed if the neuron output is exactly zero it cannot be assumed that the sample
 12. Print the accuracy
 
 ## PROGRAM:
-```
-#program written by : Kaushika A
-#register number : 212221230048
-```
 ```python
 #importing libraries
 import pandas as pd
@@ -88,6 +111,7 @@ class Perceptron:
     def predict(self, x:np.array):
         return np.where(self.f(x) >= 0,1,-1) 
 ```
+### main 
 ```python
 df=pd.read_csv("IRIS (2).csv")
 df
