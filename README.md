@@ -142,12 +142,14 @@ x[:, 0] = (x[:, 0] - x[:, 0].mean()) / x[:, 0].std()
 x[:, 1] = (x[:, 1] - x[:, 1].mean()) / x[:, 1].std()
 ```
 ```python
-x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.25,random_state=0)
+x_train, x_test, y_train, y_test = train_test_split(x, y, 
+                            test_size=0.25,random_state=0)
 classifier = Perceptron(learning_rate=0.01)
 classifier.fit(x_train, y_train)
 ```
 ```python
-plt.plot(range(1, len(classifier.misclassified_samples) + 1),classifier.misclassified_samples, marker='o')
+plt.plot(range(1, len(classifier.misclassified_samples) + 1)
+               ,classifier.misclassified_samples, marker='o')
 plt.xlabel('Epoch')
 plt.ylabel('Errors')
 plt.show()
